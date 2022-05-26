@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/6aa4f08c285a7e33eaf30b61f16d9d83/transformed/lifecycle-viewmodel-ktx-2.4.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/6aa4f08c285a7e33eaf30b61f16d9d83/transformed/lifecycle-viewmodel-ktx-2.4.1/res" />
+      <root url="file://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/6aa4f08c285a7e33eaf30b61f16d9d83/transformed/lifecycle-viewmodel-ktx-2.4.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel-ktx/2.4.1/a900dc99643d8638beb02bd809a495f772d457e7/lifecycle-viewmodel-ktx-2.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

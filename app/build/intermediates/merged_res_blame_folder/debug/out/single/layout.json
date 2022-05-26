@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/punch-android-test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/api_fetch_list_item.xml",
+        "source": "/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/res/layout/api_fetch_list_item.xml"
+    },
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/punch-android-test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/note_layout_adapter.xml",
+        "source": "/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/res/layout/note_layout_adapter.xml"
+    },
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/punch-android-test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_new_note.xml",
+        "source": "/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/res/layout/fragment_new_note.xml"
+    },
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/punch-android-test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
+        "source": "/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/punch-android-test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_update_note.xml",
+        "source": "/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/res/layout/fragment_update_note.xml"
+    },
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/punch-android-test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/punch-android-test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_api_fetch.xml",
+        "source": "/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/res/layout/fragment_api_fetch.xml"
+    },
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/punch-android-test/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_push_notification.xml",
+        "source": "/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/res/layout/fragment_push_notification.xml"
+    }
+]

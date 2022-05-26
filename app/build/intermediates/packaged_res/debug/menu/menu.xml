@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/apiFetchFragment"
+        android:icon="@drawable/ic_api_fetch"
+        android:title="@string/api_fetch"/>
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_note"
+        android:title="@string/notes"/>
+
+    <item
+        android:id="@+id/notificationFragment"
+        android:icon="@drawable/ic_notifications"
+        android:title="@string/push_notification"/>
+
+</menu>

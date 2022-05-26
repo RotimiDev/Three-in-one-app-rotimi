@@ -1,0 +1,596 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:2:1-35:12
+MERGED from [androidx.databinding:databinding-adapters:7.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/8c1637cb0e97bf285ecb1a63e329b512/transformed/databinding-adapters-7.0.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:databinding-ktx:7.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ce8c8f365ac79330149d4c3e5c29c53c/transformed/databinding-ktx-7.0.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:databinding-runtime:7.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/029c3c479401326dc4bf376e3d9ce02f/transformed/databinding-runtime-7.0.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:viewbinding:7.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/b2a6f9157a955d2927ee6c9b68d10da2/transformed/viewbinding-7.0.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-ktx:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/6bca81b9019378417f6fae2315f7c71a/transformed/room-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/384d8b2baf2d1d471911d8b7a3904f68/transformed/navigation-fragment-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/9c7c2c0c4aa4bb0fd5a1777b272466e6/transformed/navigation-dynamic-features-fragment-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4b33d745b78c53d5f42a2197a5c49b4f/transformed/navigation-fragment-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2389d124071ef5318e6eaac8169403ce/transformed/fragment-ktx-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2814659bc28db062141bf525414a23f6/transformed/navigation-ui-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4727f486e3d03c68bf38af0445777433/transformed/navigation-runtime-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/06215d0beb2e38b1c55cc20f261ca121/transformed/navigation-ui-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/6676865c7cda522f9df627aca6a31bc5/transformed/navigation-dynamic-features-runtime-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/9b312174738d1434cc0d1a0228ab6239/transformed/navigation-runtime-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2cbd1ba45070d2c8241a11bf77217f23/transformed/navigation-common-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4ae1b98d3474992b84c3a71a56ced387/transformed/navigation-common-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.robertlevonyan.view:MaterialChipView:3.0.3] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fbef6488491b69e0ebc534b344530307/transformed/MaterialChipView-3.0.3/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.compose.ui:ui-tooling:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4fcd04539a35c1393c070420b96fb929/transformed/ui-tooling-1.0.5/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.activity:activity-compose:1.3.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/305c9205d9dc6cedcb3c2d1751f579d3/transformed/activity-compose-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.3.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/b08fc96c577d235ae03b54d122d18562/transformed/activity-ktx-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/6aa4f08c285a7e33eaf30b61f16d9d83/transformed/lifecycle-viewmodel-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/0114d4a66879b9a5b6132d0bef645230/transformed/lifecycle-runtime-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.accompanist:accompanist-coil:0.7.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/9c0efd8495aa6228e9bfafacfe22f030/transformed/accompanist-coil-0.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/8d7ee4f3641023a08a25f8a6fd65b5cf/transformed/material-1.0.5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.accompanist:accompanist-imageloading-core:0.7.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4eb2efd808528185fb437735a599aa7c/transformed/accompanist-imageloading-core-0.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/e35317afa8b47912357374d539093996/transformed/material-ripple-1.0.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.foundation:foundation:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/43bbde6f11fcdbf5c23457a4f4540272/transformed/foundation-1.0.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.animation:animation:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ed999090ea374b5bbb8ca88b3bded164/transformed/animation-1.0.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.animation:animation-core:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/03b79fb6e3d67d1525c4731b3f6203de/transformed/animation-core-1.0.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material-icons-core:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/70988b31a58dfe8ee66c12f322b06bfa/transformed/material-icons-core-1.0.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.foundation:foundation-layout:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/f128fd695093577f578703dae5926701/transformed/foundation-layout-1.0.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-tooling-data:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/07a35ced29acc612ad5e0ce582528a08/transformed/ui-tooling-data-1.0.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2b756876307146a9c754aef3030cde09/transformed/ui-1.0.5/AndroidManifest.xml:17:1-24:12
+MERGED from [io.coil-kt:coil:1.1.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/bb17cc4a642485009be2bb613070aea2/transformed/coil-1.1.1/AndroidManifest.xml:2:1-9:12
+MERGED from [io.coil-kt:coil-base:1.1.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/1baebb66fa1f5826bd3b1ffabfc08a74/transformed/coil-base-1.1.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.compose.ui:ui-text:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/04d48cb978153b5b96f2c5eb4017bebb/transformed/ui-text-1.0.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime-saveable:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/881ac40fcce6f4ee41a6d7f3343ac3db/transformed/runtime-saveable-1.0.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-graphics:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/8642884059d6ed634cdd4423567cc042/transformed/ui-graphics-1.0.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-unit:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/48d6a0300bb08fdcbc6611d26a84e7a5/transformed/ui-unit-1.0.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-geometry:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cd01ebd7c08062a5b2cd64a288f5ee11/transformed/ui-geometry-1.0.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/117becdee35bb69a0e08fc6cd40890ec/transformed/ui-tooling-preview-1.0.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/546152740a67614903fa86e7f73b11a0/transformed/runtime-1.0.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/096eaea1e1e6ed058a3f5be64217722a/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/56a16990857c720d5e5e3e2331402205/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/53cce7d4a0453e5d4d4e0950ee6e6f37/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fa50f108760194c2abc3c7b5a1bd9358/transformed/window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.android.material:material:1.6.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ef4c7a3bae91e61ffbabbebee7e59cff/transformed/material-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c69d01e2e2b32e637720397fde3b55f4/transformed/constraintlayout-2.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.skydoves:progressview:1.1.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/3cb3898778a2f44482786ffd2cff8333/transformed/progressview-1.1.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/5ae0c4ed5344b91b0004fd9226c7976f/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:hilt-android:2.38.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/e3e7e99cb6a83f2e42917a12a6af19ba/transformed/hilt-android-2.38.1/AndroidManifest.xml:16:1-19:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/826251157d932d888abc179e5066e9a9/transformed/glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c56c57c268de887ef05b667e8af9e599/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/f0fbe2233e3ef6f083d3eb4c51bccf0b/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ba1399126ea42bf0085c8c27fa1ad39e/transformed/fragment-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2ccaefd48bdacbdd768d8344652d12e5/transformed/core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.pwittchen:reactivenetwork-rx2:3.0.8] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/758dd5a47b2198401192bbfa513ba66c/transformed/reactivenetwork-rx2-3.0.8/AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.room:room-runtime:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c9896d60547ac5dac4a46cf69b97ed1e/transformed/room-runtime-2.4.0/AndroidManifest.xml:17:1-31:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/212f325e17246707bafeaa448d503f98/transformed/circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/0c7333e41e5968af80bbbec164697830/transformed/timber-4.7.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/e095121f64f945e7ddb38696e9e4542e/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/9e0023a2d22574c6f33ec60bc3b933f5/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a3c33a3adc9f05dbbc80b731ebef54c3/transformed/emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/d11f39d352c0cfbe49682c3696e8005f/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/e2d9732649b0116000447c9f51b84f4f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cb81b23fd8f00cf9997c8cd559246a18/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/11a51242783a3eb669ddb5e72278b733/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/9aac61ba1d13d6595306ab84247f56bd/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/3dbb0d288bf97dd35538030140148e60/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/1405f2a68a14d8b9f10099c4b2061fd6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/d012889fdf7d496c1a656e94fb450d77/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a9ce3ad217722840560fd9bf24317481/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/672651a491a17f80119a6082fa12f736/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/44ac40847facdeec9b3fe414e2af02b8/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ff657d64f60442a31d683fbccf6a4fc2/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/d8e1525033ebe673b0da7c988cdbbc25/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/9dc75e32cb92ce5f15387f6b8a97f10a/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/010f7df90181cdaa25a6eaff58d83e2f/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.3.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac19a828c13bea4011bc943b41499f85/transformed/activity-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c9c2b3e85afecdf66a83f8cd4a83c9be/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/669a6ac25c1d6ac7975265977b4ffcb7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/b11f7306ae9d1d8499dc14df891fe402/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/7a3ca8c631f3387d4aaf941a75e51228/transformed/savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/77163bef2a743ff86ee341c5b6691e4e/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/13618371edb4aeb9d7b6af481524103a/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/545a9e6cef07985ec585afb7056e2bc7/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/56223e25f14f4d9a77d34a4aa2be76f6/transformed/sqlite-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/7e3744f8b0a0a5aa29f8dfbb830aa7f0/transformed/lifecycle-viewmodel-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/3fa3b234e4b359dd70e517dba953e9a8/transformed/lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cfb55a6339fbe36ef63a0994e6a5e653/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c515fcdb41b7f841bb5b513124494b95/transformed/lifecycle-runtime-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c7f22610fd591a77938e3a2cde681906/transformed/gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/3736bb7ad25cc8957f51623084863e99/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/5c18739086373153827d8c8ad0351131/transformed/lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/b06a4050fd7b1cbb9326f664f85bb439/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/dabe80b55820b157d51b8607d2cb017c/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/8e0efcb3b86e8fc012d69765666d6283/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:17:1-48:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2107bcf087c18d6081c5c48af417f5ee/transformed/startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/491e3636617e68a3cd53dc50ccd0a0ac/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/5c95b9e01bba3cf0b0d12fc2f66cf822/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/64f47f0e1ba0023d1ed7f287ef61c02f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/966262eb86fbf834f9d4c19c58de59fa/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/23e8c90ced9c5e181b731c61ee088ecd/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c118905b4286956e238d4ed3e56d9557/transformed/exifinterface-1.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-util:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/7f0921d70c62bda6890f3d24876bf4d1/transformed/ui-util-1.0.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/85889653658f768680505e5ac27a8c76/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/145ed01440a04346df3934a4e64923f4/transformed/rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/98c75b568cde4490901f36a4da0cce6a/transformed/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.38.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fc89db1997fb9e6d0fccea6ddf5164a9/transformed/dagger-lint-aar-2.38.1/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:2:1-35:12
+		INJECTED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:2:1-35:12
+		INJECTED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:5:5-78
+MERGED from [com.github.pwittchen:reactivenetwork-rx2:3.0.8] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/758dd5a47b2198401192bbfa513ba66c/transformed/reactivenetwork-rx2-3.0.8/AndroidManifest.xml:11:5-79
+MERGED from [com.github.pwittchen:reactivenetwork-rx2:3.0.8] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/758dd5a47b2198401192bbfa513ba66c/transformed/reactivenetwork-rx2-3.0.8/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:6:5-66
+MERGED from [com.github.pwittchen:reactivenetwork-rx2:3.0.8] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/758dd5a47b2198401192bbfa513ba66c/transformed/reactivenetwork-rx2-3.0.8/AndroidManifest.xml:12:5-67
+MERGED from [com.github.pwittchen:reactivenetwork-rx2:3.0.8] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/758dd5a47b2198401192bbfa513ba66c/transformed/reactivenetwork-rx2-3.0.8/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:7:22-76
+application
+ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:9:5-33:19
+MERGED from [androidx.compose.ui:ui-tooling:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4fcd04539a35c1393c070420b96fb929/transformed/ui-tooling-1.0.5/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.compose.ui:ui-tooling:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4fcd04539a35c1393c070420b96fb929/transformed/ui-tooling-1.0.5/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.window:window:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fa50f108760194c2abc3c7b5a1bd9358/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fa50f108760194c2abc3c7b5a1bd9358/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.material:material:1.6.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ef4c7a3bae91e61ffbabbebee7e59cff/transformed/material-1.6.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ef4c7a3bae91e61ffbabbebee7e59cff/transformed/material-1.6.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c69d01e2e2b32e637720397fde3b55f4/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c69d01e2e2b32e637720397fde3b55f4/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/826251157d932d888abc179e5066e9a9/transformed/glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/826251157d932d888abc179e5066e9a9/transformed/glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c56c57c268de887ef05b667e8af9e599/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c56c57c268de887ef05b667e8af9e599/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.pwittchen:reactivenetwork-rx2:3.0.8] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/758dd5a47b2198401192bbfa513ba66c/transformed/reactivenetwork-rx2-3.0.8/AndroidManifest.xml:14:5-20
+MERGED from [com.github.pwittchen:reactivenetwork-rx2:3.0.8] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/758dd5a47b2198401192bbfa513ba66c/transformed/reactivenetwork-rx2-3.0.8/AndroidManifest.xml:14:5-20
+MERGED from [androidx.room:room-runtime:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c9896d60547ac5dac4a46cf69b97ed1e/transformed/room-runtime-2.4.0/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c9896d60547ac5dac4a46cf69b97ed1e/transformed/room-runtime-2.4.0/AndroidManifest.xml:24:5-29:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/212f325e17246707bafeaa448d503f98/transformed/circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/212f325e17246707bafeaa448d503f98/transformed/circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/0c7333e41e5968af80bbbec164697830/transformed/timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/0c7333e41e5968af80bbbec164697830/transformed/timber-4.7.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a3c33a3adc9f05dbbc80b731ebef54c3/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a3c33a3adc9f05dbbc80b731ebef54c3/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c9c2b3e85afecdf66a83f8cd4a83c9be/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c9c2b3e85afecdf66a83f8cd4a83c9be/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cfb55a6339fbe36ef63a0994e6a5e653/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cfb55a6339fbe36ef63a0994e6a5e653/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c7f22610fd591a77938e3a2cde681906/transformed/gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c7f22610fd591a77938e3a2cde681906/transformed/gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/8e0efcb3b86e8fc012d69765666d6283/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/8e0efcb3b86e8fc012d69765666d6283/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:25:5-46:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:25:5-46:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2107bcf087c18d6081c5c48af417f5ee/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2107bcf087c18d6081c5c48af417f5ee/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:15:5-44:19
+MERGED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:15:5-44:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c9c2b3e85afecdf66a83f8cd4a83c9be/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:16:9-54
+	android:name
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:10:9-46
+receiver#com.example.punchandroidtest.presentation.ui.Notification
+ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:18:9-20:37
+	android:enabled
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:20:13-35
+	android:name
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:19:13-57
+activity#com.example.punchandroidtest.presentation.ui.MainActivity
+ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:22:13-57
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:27:27-74
+meta-data#preloaded_fonts
+ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:30:9-32:57
+	android:resource
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:32:13-54
+	android:name
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:31:13-43
+uses-sdk
+INJECTED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:7.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/8c1637cb0e97bf285ecb1a63e329b512/transformed/databinding-adapters-7.0.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-adapters:7.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/8c1637cb0e97bf285ecb1a63e329b512/transformed/databinding-adapters-7.0.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-ktx:7.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ce8c8f365ac79330149d4c3e5c29c53c/transformed/databinding-ktx-7.0.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-ktx:7.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ce8c8f365ac79330149d4c3e5c29c53c/transformed/databinding-ktx-7.0.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-runtime:7.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/029c3c479401326dc4bf376e3d9ce02f/transformed/databinding-runtime-7.0.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-runtime:7.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/029c3c479401326dc4bf376e3d9ce02f/transformed/databinding-runtime-7.0.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/b2a6f9157a955d2927ee6c9b68d10da2/transformed/viewbinding-7.0.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/b2a6f9157a955d2927ee6c9b68d10da2/transformed/viewbinding-7.0.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/6bca81b9019378417f6fae2315f7c71a/transformed/room-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/6bca81b9019378417f6fae2315f7c71a/transformed/room-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/384d8b2baf2d1d471911d8b7a3904f68/transformed/navigation-fragment-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/384d8b2baf2d1d471911d8b7a3904f68/transformed/navigation-fragment-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/9c7c2c0c4aa4bb0fd5a1777b272466e6/transformed/navigation-dynamic-features-fragment-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/9c7c2c0c4aa4bb0fd5a1777b272466e6/transformed/navigation-dynamic-features-fragment-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4b33d745b78c53d5f42a2197a5c49b4f/transformed/navigation-fragment-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4b33d745b78c53d5f42a2197a5c49b4f/transformed/navigation-fragment-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2389d124071ef5318e6eaac8169403ce/transformed/fragment-ktx-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2389d124071ef5318e6eaac8169403ce/transformed/fragment-ktx-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2814659bc28db062141bf525414a23f6/transformed/navigation-ui-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2814659bc28db062141bf525414a23f6/transformed/navigation-ui-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4727f486e3d03c68bf38af0445777433/transformed/navigation-runtime-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4727f486e3d03c68bf38af0445777433/transformed/navigation-runtime-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/06215d0beb2e38b1c55cc20f261ca121/transformed/navigation-ui-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/06215d0beb2e38b1c55cc20f261ca121/transformed/navigation-ui-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/6676865c7cda522f9df627aca6a31bc5/transformed/navigation-dynamic-features-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/6676865c7cda522f9df627aca6a31bc5/transformed/navigation-dynamic-features-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/9b312174738d1434cc0d1a0228ab6239/transformed/navigation-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/9b312174738d1434cc0d1a0228ab6239/transformed/navigation-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2cbd1ba45070d2c8241a11bf77217f23/transformed/navigation-common-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2cbd1ba45070d2c8241a11bf77217f23/transformed/navigation-common-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4ae1b98d3474992b84c3a71a56ced387/transformed/navigation-common-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4ae1b98d3474992b84c3a71a56ced387/transformed/navigation-common-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.robertlevonyan.view:MaterialChipView:3.0.3] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fbef6488491b69e0ebc534b344530307/transformed/MaterialChipView-3.0.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.robertlevonyan.view:MaterialChipView:3.0.3] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fbef6488491b69e0ebc534b344530307/transformed/MaterialChipView-3.0.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.compose.ui:ui-tooling:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4fcd04539a35c1393c070420b96fb929/transformed/ui-tooling-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4fcd04539a35c1393c070420b96fb929/transformed/ui-tooling-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-compose:1.3.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/305c9205d9dc6cedcb3c2d1751f579d3/transformed/activity-compose-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-compose:1.3.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/305c9205d9dc6cedcb3c2d1751f579d3/transformed/activity-compose-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.3.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/b08fc96c577d235ae03b54d122d18562/transformed/activity-ktx-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.3.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/b08fc96c577d235ae03b54d122d18562/transformed/activity-ktx-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/6aa4f08c285a7e33eaf30b61f16d9d83/transformed/lifecycle-viewmodel-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/6aa4f08c285a7e33eaf30b61f16d9d83/transformed/lifecycle-viewmodel-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/0114d4a66879b9a5b6132d0bef645230/transformed/lifecycle-runtime-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/0114d4a66879b9a5b6132d0bef645230/transformed/lifecycle-runtime-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-coil:0.7.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/9c0efd8495aa6228e9bfafacfe22f030/transformed/accompanist-coil-0.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.accompanist:accompanist-coil:0.7.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/9c0efd8495aa6228e9bfafacfe22f030/transformed/accompanist-coil-0.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/8d7ee4f3641023a08a25f8a6fd65b5cf/transformed/material-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/8d7ee4f3641023a08a25f8a6fd65b5cf/transformed/material-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-imageloading-core:0.7.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4eb2efd808528185fb437735a599aa7c/transformed/accompanist-imageloading-core-0.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.accompanist:accompanist-imageloading-core:0.7.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4eb2efd808528185fb437735a599aa7c/transformed/accompanist-imageloading-core-0.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/e35317afa8b47912357374d539093996/transformed/material-ripple-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-ripple:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/e35317afa8b47912357374d539093996/transformed/material-ripple-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/43bbde6f11fcdbf5c23457a4f4540272/transformed/foundation-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/43bbde6f11fcdbf5c23457a4f4540272/transformed/foundation-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ed999090ea374b5bbb8ca88b3bded164/transformed/animation-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ed999090ea374b5bbb8ca88b3bded164/transformed/animation-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation-core:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/03b79fb6e3d67d1525c4731b3f6203de/transformed/animation-core-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation-core:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/03b79fb6e3d67d1525c4731b3f6203de/transformed/animation-core-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-icons-core:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/70988b31a58dfe8ee66c12f322b06bfa/transformed/material-icons-core-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-icons-core:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/70988b31a58dfe8ee66c12f322b06bfa/transformed/material-icons-core-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation-layout:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/f128fd695093577f578703dae5926701/transformed/foundation-layout-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.foundation:foundation-layout:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/f128fd695093577f578703dae5926701/transformed/foundation-layout-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-data:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/07a35ced29acc612ad5e0ce582528a08/transformed/ui-tooling-data-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-data:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/07a35ced29acc612ad5e0ce582528a08/transformed/ui-tooling-data-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2b756876307146a9c754aef3030cde09/transformed/ui-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2b756876307146a9c754aef3030cde09/transformed/ui-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [io.coil-kt:coil:1.1.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/bb17cc4a642485009be2bb613070aea2/transformed/coil-1.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil:1.1.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/bb17cc4a642485009be2bb613070aea2/transformed/coil-1.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:1.1.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/1baebb66fa1f5826bd3b1ffabfc08a74/transformed/coil-base-1.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:1.1.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/1baebb66fa1f5826bd3b1ffabfc08a74/transformed/coil-base-1.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.compose.ui:ui-text:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/04d48cb978153b5b96f2c5eb4017bebb/transformed/ui-text-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-text:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/04d48cb978153b5b96f2c5eb4017bebb/transformed/ui-text-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-saveable:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/881ac40fcce6f4ee41a6d7f3343ac3db/transformed/runtime-saveable-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-saveable:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/881ac40fcce6f4ee41a6d7f3343ac3db/transformed/runtime-saveable-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-graphics:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/8642884059d6ed634cdd4423567cc042/transformed/ui-graphics-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-graphics:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/8642884059d6ed634cdd4423567cc042/transformed/ui-graphics-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-unit:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/48d6a0300bb08fdcbc6611d26a84e7a5/transformed/ui-unit-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-unit:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/48d6a0300bb08fdcbc6611d26a84e7a5/transformed/ui-unit-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-geometry:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cd01ebd7c08062a5b2cd64a288f5ee11/transformed/ui-geometry-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-geometry:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cd01ebd7c08062a5b2cd64a288f5ee11/transformed/ui-geometry-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/117becdee35bb69a0e08fc6cd40890ec/transformed/ui-tooling-preview-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/117becdee35bb69a0e08fc6cd40890ec/transformed/ui-tooling-preview-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/546152740a67614903fa86e7f73b11a0/transformed/runtime-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/546152740a67614903fa86e7f73b11a0/transformed/runtime-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/096eaea1e1e6ed058a3f5be64217722a/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/096eaea1e1e6ed058a3f5be64217722a/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/56a16990857c720d5e5e3e2331402205/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/56a16990857c720d5e5e3e2331402205/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/53cce7d4a0453e5d4d4e0950ee6e6f37/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/53cce7d4a0453e5d4d4e0950ee6e6f37/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fa50f108760194c2abc3c7b5a1bd9358/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fa50f108760194c2abc3c7b5a1bd9358/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ef4c7a3bae91e61ffbabbebee7e59cff/transformed/material-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ef4c7a3bae91e61ffbabbebee7e59cff/transformed/material-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c69d01e2e2b32e637720397fde3b55f4/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c69d01e2e2b32e637720397fde3b55f4/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.skydoves:progressview:1.1.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/3cb3898778a2f44482786ffd2cff8333/transformed/progressview-1.1.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.skydoves:progressview:1.1.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/3cb3898778a2f44482786ffd2cff8333/transformed/progressview-1.1.1/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/5ae0c4ed5344b91b0004fd9226c7976f/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/5ae0c4ed5344b91b0004fd9226c7976f/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:hilt-android:2.38.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/e3e7e99cb6a83f2e42917a12a6af19ba/transformed/hilt-android-2.38.1/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.38.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/e3e7e99cb6a83f2e42917a12a6af19ba/transformed/hilt-android-2.38.1/AndroidManifest.xml:18:3-42
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/826251157d932d888abc179e5066e9a9/transformed/glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/826251157d932d888abc179e5066e9a9/transformed/glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c56c57c268de887ef05b667e8af9e599/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c56c57c268de887ef05b667e8af9e599/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/f0fbe2233e3ef6f083d3eb4c51bccf0b/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/f0fbe2233e3ef6f083d3eb4c51bccf0b/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ba1399126ea42bf0085c8c27fa1ad39e/transformed/fragment-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ba1399126ea42bf0085c8c27fa1ad39e/transformed/fragment-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2ccaefd48bdacbdd768d8344652d12e5/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2ccaefd48bdacbdd768d8344652d12e5/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.pwittchen:reactivenetwork-rx2:3.0.8] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/758dd5a47b2198401192bbfa513ba66c/transformed/reactivenetwork-rx2-3.0.8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.pwittchen:reactivenetwork-rx2:3.0.8] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/758dd5a47b2198401192bbfa513ba66c/transformed/reactivenetwork-rx2-3.0.8/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.room:room-runtime:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c9896d60547ac5dac4a46cf69b97ed1e/transformed/room-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c9896d60547ac5dac4a46cf69b97ed1e/transformed/room-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/212f325e17246707bafeaa448d503f98/transformed/circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/212f325e17246707bafeaa448d503f98/transformed/circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/0c7333e41e5968af80bbbec164697830/transformed/timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/0c7333e41e5968af80bbbec164697830/transformed/timber-4.7.1/AndroidManifest.xml:5:5-43
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/e095121f64f945e7ddb38696e9e4542e/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/e095121f64f945e7ddb38696e9e4542e/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/9e0023a2d22574c6f33ec60bc3b933f5/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/9e0023a2d22574c6f33ec60bc3b933f5/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a3c33a3adc9f05dbbc80b731ebef54c3/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a3c33a3adc9f05dbbc80b731ebef54c3/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/d11f39d352c0cfbe49682c3696e8005f/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/d11f39d352c0cfbe49682c3696e8005f/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/e2d9732649b0116000447c9f51b84f4f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/e2d9732649b0116000447c9f51b84f4f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cb81b23fd8f00cf9997c8cd559246a18/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cb81b23fd8f00cf9997c8cd559246a18/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/11a51242783a3eb669ddb5e72278b733/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/11a51242783a3eb669ddb5e72278b733/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/9aac61ba1d13d6595306ab84247f56bd/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/9aac61ba1d13d6595306ab84247f56bd/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/3dbb0d288bf97dd35538030140148e60/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/3dbb0d288bf97dd35538030140148e60/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/1405f2a68a14d8b9f10099c4b2061fd6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/1405f2a68a14d8b9f10099c4b2061fd6/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/d012889fdf7d496c1a656e94fb450d77/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/d012889fdf7d496c1a656e94fb450d77/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a9ce3ad217722840560fd9bf24317481/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a9ce3ad217722840560fd9bf24317481/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/672651a491a17f80119a6082fa12f736/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/672651a491a17f80119a6082fa12f736/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/44ac40847facdeec9b3fe414e2af02b8/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/44ac40847facdeec9b3fe414e2af02b8/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ff657d64f60442a31d683fbccf6a4fc2/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ff657d64f60442a31d683fbccf6a4fc2/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/d8e1525033ebe673b0da7c988cdbbc25/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/d8e1525033ebe673b0da7c988cdbbc25/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/9dc75e32cb92ce5f15387f6b8a97f10a/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/9dc75e32cb92ce5f15387f6b8a97f10a/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/010f7df90181cdaa25a6eaff58d83e2f/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/010f7df90181cdaa25a6eaff58d83e2f/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.3.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac19a828c13bea4011bc943b41499f85/transformed/activity-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.3.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac19a828c13bea4011bc943b41499f85/transformed/activity-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c9c2b3e85afecdf66a83f8cd4a83c9be/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c9c2b3e85afecdf66a83f8cd4a83c9be/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/669a6ac25c1d6ac7975265977b4ffcb7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/669a6ac25c1d6ac7975265977b4ffcb7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/b11f7306ae9d1d8499dc14df891fe402/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/b11f7306ae9d1d8499dc14df891fe402/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/7a3ca8c631f3387d4aaf941a75e51228/transformed/savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/7a3ca8c631f3387d4aaf941a75e51228/transformed/savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/77163bef2a743ff86ee341c5b6691e4e/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/77163bef2a743ff86ee341c5b6691e4e/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/13618371edb4aeb9d7b6af481524103a/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/13618371edb4aeb9d7b6af481524103a/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/545a9e6cef07985ec585afb7056e2bc7/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/545a9e6cef07985ec585afb7056e2bc7/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/56223e25f14f4d9a77d34a4aa2be76f6/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/56223e25f14f4d9a77d34a4aa2be76f6/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/7e3744f8b0a0a5aa29f8dfbb830aa7f0/transformed/lifecycle-viewmodel-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/7e3744f8b0a0a5aa29f8dfbb830aa7f0/transformed/lifecycle-viewmodel-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/3fa3b234e4b359dd70e517dba953e9a8/transformed/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/3fa3b234e4b359dd70e517dba953e9a8/transformed/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cfb55a6339fbe36ef63a0994e6a5e653/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cfb55a6339fbe36ef63a0994e6a5e653/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c515fcdb41b7f841bb5b513124494b95/transformed/lifecycle-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c515fcdb41b7f841bb5b513124494b95/transformed/lifecycle-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c7f22610fd591a77938e3a2cde681906/transformed/gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c7f22610fd591a77938e3a2cde681906/transformed/gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/3736bb7ad25cc8957f51623084863e99/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/3736bb7ad25cc8957f51623084863e99/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/5c18739086373153827d8c8ad0351131/transformed/lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/5c18739086373153827d8c8ad0351131/transformed/lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/b06a4050fd7b1cbb9326f664f85bb439/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/b06a4050fd7b1cbb9326f664f85bb439/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/dabe80b55820b157d51b8607d2cb017c/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/dabe80b55820b157d51b8607d2cb017c/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/8e0efcb3b86e8fc012d69765666d6283/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/8e0efcb3b86e8fc012d69765666d6283/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2107bcf087c18d6081c5c48af417f5ee/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2107bcf087c18d6081c5c48af417f5ee/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/491e3636617e68a3cd53dc50ccd0a0ac/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/491e3636617e68a3cd53dc50ccd0a0ac/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/5c95b9e01bba3cf0b0d12fc2f66cf822/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/5c95b9e01bba3cf0b0d12fc2f66cf822/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/64f47f0e1ba0023d1ed7f287ef61c02f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/64f47f0e1ba0023d1ed7f287ef61c02f/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/966262eb86fbf834f9d4c19c58de59fa/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/966262eb86fbf834f9d4c19c58de59fa/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/23e8c90ced9c5e181b731c61ee088ecd/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/23e8c90ced9c5e181b731c61ee088ecd/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c118905b4286956e238d4ed3e56d9557/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c118905b4286956e238d4ed3e56d9557/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-util:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/7f0921d70c62bda6890f3d24876bf4d1/transformed/ui-util-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-util:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/7f0921d70c62bda6890f3d24876bf4d1/transformed/ui-util-1.0.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/85889653658f768680505e5ac27a8c76/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/85889653658f768680505e5ac27a8c76/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/145ed01440a04346df3934a4e64923f4/transformed/rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/145ed01440a04346df3934a4e64923f4/transformed/rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/98c75b568cde4490901f36a4da0cce6a/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/98c75b568cde4490901f36a4da0cce6a/transformed/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.dagger:dagger-lint-aar:2.38.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fc89db1997fb9e6d0fccea6ddf5164a9/transformed/dagger-lint-aar-2.38.1/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.38.1] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fc89db1997fb9e6d0fccea6ddf5164a9/transformed/dagger-lint-aar-2.38.1/AndroidManifest.xml:18:3-42
+MERGED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4fcd04539a35c1393c070420b96fb929/transformed/ui-tooling-1.0.5/AndroidManifest.xml:25:9-27:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4fcd04539a35c1393c070420b96fb929/transformed/ui-tooling-1.0.5/AndroidManifest.xml:27:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4fcd04539a35c1393c070420b96fb929/transformed/ui-tooling-1.0.5/AndroidManifest.xml:26:13-71
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fa50f108760194c2abc3c7b5a1bd9358/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fa50f108760194c2abc3c7b5a1bd9358/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fa50f108760194c2abc3c7b5a1bd9358/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fa50f108760194c2abc3c7b5a1bd9358/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fa50f108760194c2abc3c7b5a1bd9358/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fa50f108760194c2abc3c7b5a1bd9358/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c9896d60547ac5dac4a46cf69b97ed1e/transformed/room-runtime-2.4.0/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c9896d60547ac5dac4a46cf69b97ed1e/transformed/room-runtime-2.4.0/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c9896d60547ac5dac4a46cf69b97ed1e/transformed/room-runtime-2.4.0/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c9896d60547ac5dac4a46cf69b97ed1e/transformed/room-runtime-2.4.0/AndroidManifest.xml:26:13-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a3c33a3adc9f05dbbc80b731ebef54c3/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cfb55a6339fbe36ef63a0994e6a5e653/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cfb55a6339fbe36ef63a0994e6a5e653/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2107bcf087c18d6081c5c48af417f5ee/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/2107bcf087c18d6081c5c48af417f5ee/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a3c33a3adc9f05dbbc80b731ebef54c3/transformed/emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a3c33a3adc9f05dbbc80b731ebef54c3/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a3c33a3adc9f05dbbc80b731ebef54c3/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a3c33a3adc9f05dbbc80b731ebef54c3/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a3c33a3adc9f05dbbc80b731ebef54c3/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a3c33a3adc9f05dbbc80b731ebef54c3/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a3c33a3adc9f05dbbc80b731ebef54c3/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cfb55a6339fbe36ef63a0994e6a5e653/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cfb55a6339fbe36ef63a0994e6a5e653/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cfb55a6339fbe36ef63a0994e6a5e653/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:32:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:36:9-45:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:39:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:40:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:41:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:37:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:42:13-44:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:43:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:43:25-88
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:13:22-74
+activity#com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity
+ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:18:9-24:45
+	android:process
+		ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:23:13-64
+	android:enabled
+		ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:20:13-36
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:24:13-42
+	android:launchMode
+		ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:22:13-48
+	android:exported
+		ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:19:13-100
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:25:9-29:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:28:13-42
+	android:exported
+		ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:27:13-37
+	android:theme
+		ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:29:13-62
+	android:name
+		ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:26:13-93
+service#com.google.android.play.core.assetpacks.AssetPackExtractionService
+ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:32:9-39:19
+	android:enabled
+		ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:34:13-36
+	android:exported
+		ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:33:13-94
+meta-data#com.google.android.play.core.assetpacks.versionCode
+ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:36:13-38:41
+	android:value
+		ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:38:17-38
+	android:name
+		ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:37:17-83
+service#com.google.android.play.core.assetpacks.ExtractionForegroundService
+ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:40:9-43:40
+	android:enabled
+		ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:42:13-36
+	android:exported
+		ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:41:13-95

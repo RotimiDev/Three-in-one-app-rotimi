@@ -1,0 +1,205 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.punchandroidtest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:5:5-78
+11-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:6:5-66
+12-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+13-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:7:5-78
+13-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:7:22-76
+14
+15    <!-- Permission will be merged into the manifest of the hosting app. -->
+16    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:13:5-77
+17-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:13:22-74
+18
+19    <application
+19-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:9:5-33:19
+20        android:name="com.example.punchandroidtest.RealEstateApplication"
+20-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:10:9-46
+21        android:allowBackup="true"
+21-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:11:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.7.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c9c2b3e85afecdf66a83f8cd4a83c9be/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:12:9-43
+25        android:label="@string/app_name"
+25-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:13:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:14:9-54
+27        android:supportsRtl="true"
+27-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:15:9-35
+28        android:theme="@style/Theme.PunchAndroidTest" >
+28-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:16:9-54
+29        <receiver
+29-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:18:9-20:37
+30            android:name="com.example.punchandroidtest.presentation.ui.Notification"
+30-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:19:13-57
+31            android:enabled="true" />
+31-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:20:13-35
+32
+33        <activity
+33-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:21:9-29:20
+34            android:name="com.example.punchandroidtest.presentation.ui.MainActivity"
+34-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:22:13-57
+35            android:exported="true" >
+35-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:23:13-36
+36            <intent-filter>
+36-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:24:13-28:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:25:17-69
+37-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:25:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:27:17-77
+39-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:27:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <meta-data
+43-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:30:9-32:57
+44            android:name="preloaded_fonts"
+44-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:31:13-43
+45            android:resource="@array/preloaded_fonts" />
+45-->/Users/mac/AndroidStudioProjects/punch-android-test/app/src/main/AndroidManifest.xml:32:13-54
+46
+47        <activity
+47-->[androidx.compose.ui:ui-tooling:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4fcd04539a35c1393c070420b96fb929/transformed/ui-tooling-1.0.5/AndroidManifest.xml:25:9-27:39
+48            android:name="androidx.compose.ui.tooling.PreviewActivity"
+48-->[androidx.compose.ui:ui-tooling:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4fcd04539a35c1393c070420b96fb929/transformed/ui-tooling-1.0.5/AndroidManifest.xml:26:13-71
+49            android:exported="true" />
+49-->[androidx.compose.ui:ui-tooling:1.0.5] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/4fcd04539a35c1393c070420b96fb929/transformed/ui-tooling-1.0.5/AndroidManifest.xml:27:13-36
+50
+51        <uses-library
+51-->[androidx.window:window:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fa50f108760194c2abc3c7b5a1bd9358/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+52            android:name="androidx.window.extensions"
+52-->[androidx.window:window:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fa50f108760194c2abc3c7b5a1bd9358/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+53            android:required="false" />
+53-->[androidx.window:window:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fa50f108760194c2abc3c7b5a1bd9358/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+54        <uses-library
+54-->[androidx.window:window:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fa50f108760194c2abc3c7b5a1bd9358/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+55            android:name="androidx.window.sidecar"
+55-->[androidx.window:window:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fa50f108760194c2abc3c7b5a1bd9358/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+56            android:required="false" />
+56-->[androidx.window:window:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/fa50f108760194c2abc3c7b5a1bd9358/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+57
+58        <service
+58-->[androidx.room:room-runtime:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c9896d60547ac5dac4a46cf69b97ed1e/transformed/room-runtime-2.4.0/AndroidManifest.xml:25:9-28:40
+59            android:name="androidx.room.MultiInstanceInvalidationService"
+59-->[androidx.room:room-runtime:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c9896d60547ac5dac4a46cf69b97ed1e/transformed/room-runtime-2.4.0/AndroidManifest.xml:26:13-74
+60            android:directBootAware="true"
+60-->[androidx.room:room-runtime:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c9896d60547ac5dac4a46cf69b97ed1e/transformed/room-runtime-2.4.0/AndroidManifest.xml:27:13-43
+61            android:exported="false" />
+61-->[androidx.room:room-runtime:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c9896d60547ac5dac4a46cf69b97ed1e/transformed/room-runtime-2.4.0/AndroidManifest.xml:28:13-37
+62
+63        <provider
+63-->[androidx.emoji2:emoji2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a3c33a3adc9f05dbbc80b731ebef54c3/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+64            android:name="androidx.startup.InitializationProvider"
+64-->[androidx.emoji2:emoji2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a3c33a3adc9f05dbbc80b731ebef54c3/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+65            android:authorities="com.example.punchandroidtest.androidx-startup"
+65-->[androidx.emoji2:emoji2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a3c33a3adc9f05dbbc80b731ebef54c3/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+66            android:exported="false" >
+66-->[androidx.emoji2:emoji2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a3c33a3adc9f05dbbc80b731ebef54c3/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+67            <meta-data
+67-->[androidx.emoji2:emoji2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a3c33a3adc9f05dbbc80b731ebef54c3/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+68                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+68-->[androidx.emoji2:emoji2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a3c33a3adc9f05dbbc80b731ebef54c3/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+69                android:value="androidx.startup" />
+69-->[androidx.emoji2:emoji2:1.0.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/a3c33a3adc9f05dbbc80b731ebef54c3/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+70            <meta-data
+70-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cfb55a6339fbe36ef63a0994e6a5e653/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+71                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+71-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cfb55a6339fbe36ef63a0994e6a5e653/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+72                android:value="androidx.startup" />
+72-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cfb55a6339fbe36ef63a0994e6a5e653/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+73            <meta-data
+73-->[androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:31:13-33:52
+74                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+74-->[androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:32:17-85
+75                android:value="androidx.startup" />
+75-->[androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:33:17-49
+76        </provider>
+77
+78        <receiver
+78-->[androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:36:9-45:20
+79            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+79-->[androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:37:13-76
+80            android:directBootAware="false"
+80-->[androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:38:13-44
+81            android:enabled="true"
+81-->[androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:39:13-35
+82            android:exported="true"
+82-->[androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:40:13-36
+83            android:permission="android.permission.DUMP" >
+83-->[androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:41:13-57
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:42:13-44:29
+85                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+85-->[androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:43:17-91
+85-->[androidx.profileinstaller:profileinstaller:1.0.4] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/ac1ef8b30c5b45fff3eb45e45fdb1da2/transformed/profileinstaller-1.0.4/AndroidManifest.xml:43:25-88
+86            </intent-filter>
+87        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+88        <activity
+88-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:18:9-24:45
+89            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+89-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:19:13-100
+90            android:enabled="false"
+90-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:20:13-36
+91            android:exported="false"
+91-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:21:13-37
+92            android:launchMode="singleInstance"
+92-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:22:13-48
+93            android:process=":playcore_missing_splits_activity"
+93-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:23:13-64
+94            android:stateNotNeeded="true" />
+94-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:24:13-42
+95        <activity
+95-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:25:9-29:65
+96            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+96-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:26:13-93
+97            android:exported="false"
+97-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:27:13-37
+98            android:stateNotNeeded="true"
+98-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:28:13-42
+99            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+99-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:29:13-62
+100        <service
+100-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:32:9-39:19
+101            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+101-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:33:13-94
+102            android:enabled="false"
+102-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:34:13-36
+103            android:exported="true" >
+103-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:35:13-36
+104            <meta-data
+104-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:36:13-38:41
+105                android:name="com.google.android.play.core.assetpacks.versionCode"
+105-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:37:17-83
+106                android:value="11002" />
+106-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:38:17-38
+107        </service>
+108        <service
+108-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:40:9-43:40
+109            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+109-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:41:13-95
+110            android:enabled="false"
+110-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:42:13-36
+111            android:exported="false" />
+111-->[com.google.android.play:core:1.10.2] /Users/mac/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/87ba813ab234cc1c6167bb524b1e0de4/transformed/core-1.10.2/AndroidManifest.xml:43:13-37
+112    </application>
+113
+114</manifest>

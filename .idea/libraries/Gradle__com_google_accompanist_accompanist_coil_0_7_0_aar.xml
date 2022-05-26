@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.accompanist:accompanist-coil:0.7.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/9c0efd8495aa6228e9bfafacfe22f030/transformed/accompanist-coil-0.7.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/9c0efd8495aa6228e9bfafacfe22f030/transformed/accompanist-coil-0.7.0/res" />
+      <root url="file://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/9c0efd8495aa6228e9bfafacfe22f030/transformed/accompanist-coil-0.7.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/modules-2/files-2.1/com.google.accompanist/accompanist-coil/0.7.0/c63880cc425a52a162ed5c8e937ce94915bb5630/accompanist-coil-0.7.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/modules-2/files-2.1/com.google.accompanist/accompanist-coil/0.7.0/dbe3703f5f17c8cbff9148a2159c63ad6129bc2f/accompanist-coil-0.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

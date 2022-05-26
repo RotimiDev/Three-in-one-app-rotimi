@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.arch.core:core-testing:2.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/8c28a39d39b8c32fbc88543b3a89223c/transformed/core-testing-2.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/8c28a39d39b8c32fbc88543b3a89223c/transformed/core-testing-2.1.0/res" />
+      <root url="file://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/8c28a39d39b8c32fbc88543b3a89223c/transformed/core-testing-2.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/modules-2/files-2.1/androidx.arch.core/core-testing/2.1.0/457668675d61f43d0fbffba4c89bc8eb2470a295/core-testing-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.lifecycle:lifecycle-extensions:2.2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c56c57c268de887ef05b667e8af9e599/transformed/lifecycle-extensions-2.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c56c57c268de887ef05b667e8af9e599/transformed/lifecycle-extensions-2.2.0/res" />
+      <root url="file://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c56c57c268de887ef05b667e8af9e599/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-extensions/2.2.0/32e7a190b796f6853c89f5d6b92b64a6fe8318d3/lifecycle-extensions-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

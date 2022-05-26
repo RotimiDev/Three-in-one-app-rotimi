@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.lifecycle:lifecycle-process:2.4.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cfb55a6339fbe36ef63a0994e6a5e653/transformed/lifecycle-process-2.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cfb55a6339fbe36ef63a0994e6a5e653/transformed/lifecycle-process-2.4.0/res" />
+      <root url="file://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/cfb55a6339fbe36ef63a0994e6a5e653/transformed/lifecycle-process-2.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-process/2.4.0/30f942ae82287047dd2dc7410060672ca44c1942/lifecycle-process-2.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

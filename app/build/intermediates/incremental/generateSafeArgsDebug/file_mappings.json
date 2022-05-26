@@ -1,0 +1,1 @@
+[{"navFile":"src/main/res/navigation/nav_graph.xml","javaFiles":["com.example.punchandroidtest.presentation.ui.HomeFragmentDirections","com.example.punchandroidtest.presentation.ui.UpdateNoteFragmentDirections","com.example.punchandroidtest.presentation.ui.UpdateNoteFragmentArgs","com.example.punchandroidtest.presentation.ui.NewNoteFragmentDirections"]}]

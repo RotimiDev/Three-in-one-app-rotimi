@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.exifinterface:exifinterface:1.3.2@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c118905b4286956e238d4ed3e56d9557/transformed/exifinterface-1.3.2/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c118905b4286956e238d4ed3e56d9557/transformed/exifinterface-1.3.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c118905b4286956e238d4ed3e56d9557/transformed/exifinterface-1.3.2/res" />
+      <root url="file://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/transforms-3/c118905b4286956e238d4ed3e56d9557/transformed/exifinterface-1.3.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/week-6-task-hakeem-akeem-master/gradle/wrapper/caches/modules-2/files-2.1/androidx.exifinterface/exifinterface/1.3.2/1bd0ec4a0281e75ef08c8317c92f800e48b0fd19/exifinterface-1.3.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

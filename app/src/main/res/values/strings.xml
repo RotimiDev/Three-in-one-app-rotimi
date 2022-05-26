@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Punch Android Test</string>
+    <string name="punch">Punch</string>
+    <string name="push_notification">Notifications</string>
+    <string name="notes">Notes</string>
+    <string name="api_fetch">API Fetch</string>
+    <string name="search">Search</string>
+    <string name="price">Price</string>
+    <string name="type">Type</string>
+    <string name="id">Id</string>
+    <string name="image">Image</string>
+    <string name="no_internet">No internet</string>
+    <string name="connected">Connected</string>
+    <string name="lost_connection">Lost connection</string>
+    <string name="no_notes_available">No notes available</string>
+    <string name="save">Save</string>
+    <string name="type_your_title">Type your title</string>
+    <string name="note_title">Note title</string>
+    <string name="type_something">Type something...</string>
+    <string name="submit">Submit</string>
+    <string name="title">Title</string>
+    <string name="message">Message</string>
+    <string name="schedule_notification">Schedule Notification</string>
+
+</resources>
